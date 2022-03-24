@@ -9,7 +9,7 @@ int cari(int left, int right){
 		if(mid % 11 == 0){
 			res++;
 			mid++;
-		} else if(mid % 12){
+		} else if(mid % 12 == 0){
 			mid++;
 		} else {
 			if(mid % 4 == 0){
